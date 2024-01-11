@@ -1,0 +1,3 @@
+/* eslint-disable prefer-promise-reject-errors */var e=document.querySelector("body"),t=document.querySelector(".logo"),n=new Promise(function(e,n){t.addEventListener("click",function(){e()})}),o=new Promise(function(e,t){setTimeout(function(){t()},3e3)});n.then(function(){var t=document.createElement("div");t.textContent="Promise was resolved!",t.className="message",e.appendChild(t)}),o.catch(function(){var t=document.createElement("div");t.textContent="Promise was rejected!",t.className="message error-message",e.appendChild(t)});//# sourceMappingURL=index.0d814124.js.map
+
+//# sourceMappingURL=index.0d814124.js.map
